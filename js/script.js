@@ -1,5 +1,5 @@
 // FSJS - Random Quote Generator
-var message = ''
+var message = '';
 // Create the array of quote objects and name it quotes
 var quotes = [
   { quote: "If you fail to plan, you are planning to fail!",
@@ -9,7 +9,7 @@ var quotes = [
   { quote: "Ninety-nine percent of the failures come from people who have the habit of making excuses",
     author: "George Washington Carver"}
 ];
-var quote = ''
+var quote = '';
 
 
 // Create the getRandomQuuote function and name it getRandomQuote
@@ -26,7 +26,7 @@ message= getRandomQuote(quote);
 // Create the printQuote funtion and name it printQuote
 function printQuote(message) {
   var outputDiv = document.getElementById("quote");
-  outputDiv.innerHTML = message
+  outputDiv.innerHTML = message;
 }
 
 
