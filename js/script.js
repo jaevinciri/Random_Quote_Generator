@@ -1,5 +1,9 @@
 // FSJS - Random Quote Generator
+<<<<<<< HEAD
 
+=======
+var message = '';
+>>>>>>> 05578ebfab724d1dd539bd1ea35a2c864248fcfb
 // Create the array of quote objects and name it quotes
 var quotes = [
   { quote: "If you fail to plan, you are planning to fail!",
@@ -9,6 +13,11 @@ var quotes = [
   { quote: "Ninety-nine percent of the failures come from people who have the habit of making excuses.",
     author: "George Washington Carver"}
 ];
+<<<<<<< HEAD
+=======
+var quote = '';
+
+>>>>>>> 05578ebfab724d1dd539bd1ea35a2c864248fcfb
 
 
 
@@ -18,12 +27,18 @@ function getRandomQuote(objects){
 }
 
 // Create the printQuote funtion and name it printQuote
+<<<<<<< HEAD
 function printQuote() {
 var message = '';//creates an empty string that will accept the quote
 var result = getRandomQuote(quotes);//decides which index to select
 message = "<p class='quote'>"+ result.quote + "</p>";//saves the quote to the empty string
 var outputDiv = document.getElementById("quote-box");
 outputDiv.innerHTML = message;//injects it into the DOM
+=======
+function printQuote(message) {
+  var outputDiv = document.getElementById("quote");
+  outputDiv.innerHTML = message;
+>>>>>>> 05578ebfab724d1dd539bd1ea35a2c864248fcfb
 }
 
 printQuote();// Calling the function to be pulled by the click event
